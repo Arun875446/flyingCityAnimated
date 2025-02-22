@@ -175,6 +175,8 @@ const gui = new GUI({
   closeFolders: true,
 });
 
+gui.hide();
+
 const scene = new THREE.Scene();
 const group = new THREE.Group();
 
